@@ -1,0 +1,12 @@
+.jumbotron-fluid
+
+
+.background-image{
+    background-image: url("https://images.unsplash.com/photo-1528163308254-5852067f0a1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-position-y: 25em;
+    height: 200px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+.bg-text {filter: blur(0px)}
