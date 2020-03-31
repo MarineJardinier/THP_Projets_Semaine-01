@@ -4,49 +4,49 @@ concernent le squelette
  */
 
  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 22px;
-    position: relative;
-    font-weight: 400px;
-    height: 100%;
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+  font-weight: 400px;
+  height: 100%;
+  padding: 0;
 }
 
 div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 a {
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 40px;
-    font-weight: 400px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 400px;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
   }
 
 Header {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 Main {
-    display: flex;
-    position: center;
+  display: flex;
+  position: center;
 margin: 5% 0%;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 Footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    }
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  }
 
 /*
 Les éléments qui suivent
@@ -54,19 +54,19 @@ concernent la mise en relief des containers
 
 
 .div01 {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
 .div02 {
-    border: 2px solid orange;
+  border: 2px solid orange;
 }
 
 .div03 {
-    border: 2px solid blue;
+  border: 2px solid blue;
 }
 
 .div04 {
-    border: 2px solid green;
+  border: 2px solid green;
 }
  */
 
@@ -77,61 +77,61 @@ concernent les classes
  */
 
  .Header-fonctions {
-    color: black;
-    padding: 0em 1em;
-    line-height: 2;
-    height: 30px;
-    width: 50px;
+  color: black;
+  padding: 0em 1em;
+  line-height: 2;
+  height: 30px;
+  width: 50px;
 }
 
 .Applications {
-    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
-    background-size: 528px 68px;
-    padding: 0em 0.5em;
-    background-position: -132px -38px;
-    opacity: .70;
-    height: 30px;
-    width: 30px;
+  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+  background-size: 528px 68px;
+  padding: 0em 0.5em;
+  background-position: -132px -38px;
+  opacity: .70;
+  height: 30px;
+  width: 30px;
 }
 
 .Connexion {
-    color: white;
-    font-weight: 600;
-    background: #4285f4;
-    border-radius: 3px;
-    text-decoration: none;
-    padding: 0.1em 1em;
-    line-height: 2;
-    height: 30px;
+  color: white;
+  font-weight: 600;
+  background: #4285f4;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 0.1em 1em;
+  line-height: 2;
+  height: 30px;
 }
 
 .Footer-haut {
-    font-size: 15px;
-    color: #9a9a9c;
+  font-size: 15px;
+  color: #9a9a9c;
 }
 
 .Footer a {
-    color: #5f6368;
+  color: #5f6368;
 }
 
 .Footer-bas {
-    margin: 0 0.5em;
+  margin: 0 0.5em;
 }
 
 .Bouton-recherche {
-    margin: 11px 4px;
-    padding: 6px 16px;
-    min-width: 54px;
-    border: none;
-    background-color: white;
-    font-weight: 400;
-    color: #5F6368;
+  margin: 11px 4px;
+  padding: 6px 16px;
+  min-width: 54px;
+  border: none;
+  background-color: white;
+  font-weight: 400;
+  color: #5F6368;
 }
 
 .Recherche-plus input[type="submit"]:hover {
-    border: 1px solid;
-    border-radius: 4px;
-    box-shadow: none;
+  border: 1px solid;
+  border-radius: 4px;
+  box-shadow: none;
 }
 
 /*
@@ -142,90 +142,90 @@ concernent les id
 /* Header */
 
 #Header-right {
-    min-width: 250px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+  min-width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 
 #Gmail {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 /* Doodle */
 
 #Doodle {
-    margin: 80px 0 0 0;
+  margin: 80px 0 0 0;
 }
 
 /* Recherche */
 
 #Box-de-recherche {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
 }
 
 #Box-de-recherche :hover {
-    box-shadow: black 0 1px 6px 0;
+  box-shadow: black 0 1px 6px 0;
 }
 
 #Barre-de-recherche {
-    display: flex;
-    margin: 11px 4px;
-    padding: 0px 16px;
-    width: 492px;
-    height: 44px;
-    background: white;
-    border: 1px solid #a1a5aa;
-    border-radius: 44px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  width: 492px;
+  height: 44px;
+  background: white;
+  border: 1px solid #a1a5aa;
+  border-radius: 44px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #Barre-de-recherche :hover,#Recherche-plus :hover {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 #Search-form {
-    width: 85%;
-        background-color: transparent;
-        border: none;
-        outline: none;
+  width: 85%;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 
 #Recherche-plus {
-    padding: 18px;
+  padding: 18px;
 }
 
 /* Bandeau événement */
 
 #Bandeau-evenement{
-    align-items: center;
+  align-items: center;
   }
 
   #gif-5-gestes, #Message-gestes-barrière {
-      padding: 2px;
+    padding: 2px;
   }
 
 /* Footer */
 
 #Footer-haut {
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 1em;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 1em;
 }
 
 #Footer-bas {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0.5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5em;
 }
 
 #Footer-haut, #Footer-bas {
-    background: #f2f2f2;
-    border-top: #e4e4e4 solid 1px;
-    line-height: 40px;
+  background: #f2f2f2;
+  border-top: #e4e4e4 solid 1px;
+  line-height: 40px;
 }
